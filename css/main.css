@@ -1,0 +1,300 @@
+
+* {
+  font-family: 'Comfortaa', cursive;
+}
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#d4d4d4;
+  
+}
+
+.container{
+  width: 100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  /*padding-right: 15px;*/
+  background:#616161;
+  color:#ffffff;
+  /*padding-top:30px;*/
+  min-height:70px;
+  border-bottom:#2e2e2e 3px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;*/
+
+}
+
+.logo{
+  background-image: url(../img/mylogo_white.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+.title{
+  font-size: 24px;
+  padding-left: 20px; /*nazva*/
+}
+.menu{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu a{
+  display: block;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size:16px;
+  text-decoration: none;
+}
+
+.menu li{
+  list-style-type: none;
+  padding: 0 20px 0 20px;
+}
+.branding{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 10px;  /*logo*/
+  align-items: center;
+}
+
+header .highlight, header .current a{
+  color:#5bcc5b;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#5bcc5b;
+  font-weight:bold;
+}
+
+.jumbotron{
+  background-image: url(../img/jambotron.jpg);
+  background-size: 100%;
+  background-position: top;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;  
+  /*max-width: 960px;*/
+}
+.column{
+  width: 33.33%;
+  margin: 0 10px;
+}
+
+h1{
+  text-align: center
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+.designs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+
+
+.design1{
+    background-image: url(../img/design1.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design1:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid; 
+    background-repeat: no-repeat;   
+}
+.design2{
+    background-image: url(../img/design2.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design2:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design3{
+    background-image: url(../img/design3.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design3:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design4{
+    background-image: url(../img/design4.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design4:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design5{
+    background-image: url(../img/design5.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design5:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design6{
+    background-image: url(../img/design6.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design6:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design7{
+    background-image: url(../img/design7.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design7:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design8{
+    background-image: url(../img/design8.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design8:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design9{
+    background-image: url(../img/design9.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design9:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design10 {
+    background-image: url(../img/design10.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design10:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design11 {
+    background-image: url(../img/design11.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design11:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+.design12 {
+    background-image: url(../img/design12.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    background-repeat: no-repeat; 
+}
+.design12:hover{
+    transform: scale(3.3);
+    transition: 0.8s all;
+    border: #2e2e2e 2px solid;
+    background-repeat: no-repeat; 
+}
+
+.footer{
+  background-color: #2e2e2e;
+  color: #ffffff;
+  height: 50px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+
